@@ -150,7 +150,7 @@ const resume = () => {
           </p>
           <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
             <li>Teaching piano clesses.</li>
-            <li>Concertmaster of the children's school choir.</li>
+            <li>Concertmaster of the children&#39;s school choir.</li>
           </ul>
         </div>
 
@@ -174,14 +174,6 @@ const resume = () => {
             of HEI of the III-d-IVth accreditation levels (piano).
           </div>
         </div>
-        <a
-          className="py-2 text-gray-600 underline cursor-pointer"
-          target="_blank"
-          href="https://drive.google.com/file/d/1b6Kz7wGXR8ge_vbEpvVUy75KljtqFR3T/view?usp=sharing"
-          download
-        >
-          Download resume
-        </a>
       </div>
     </>
   );
