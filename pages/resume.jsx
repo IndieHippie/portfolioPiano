@@ -1,187 +1,187 @@
-import React from 'react';
-import Head from 'next/head';
-import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
+import React from "react";
+import Head from "next/head";
+import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 
 const resume = () => {
   return (
     <>
       <Head>
-        <title>Clint | Resume</title>
+        <title>Roman | Resume</title>
         <meta
-          name='description'
-          content='I’m a front-end web developer specializing in building (and occasionally designing) exceptional digital experiences.'
+          name="description"
+          content="I’m a front-end web developer specializing in building (and occasionally designing) exceptional digital experiences."
         />
-        <link rel='icon' href='/fav.png' />
+        <link rel="icon" href="/fav.png" />
       </Head>
 
-      <div className='max-w-[940px] mx-auto p-2 pt-[120px]'>
-        <h2 className='text-center'>Resume</h2>
-        <div className='bg-[#d0d4d6] my-4 p-4 w-full flex justify-between items-center'>
-          <h2 className='text-center'>Clint Briley</h2>
-          <div className='flex'>
+      <div className="max-w-[940px] mx-auto p-2 pt-[120px]">
+        <h2 className="text-center">Resume</h2>
+        <div className="bg-[#a3cacc] my-4 p-4 w-full flex justify-between items-center">
+          <h2 className="text-center">Roman Stets</h2>
+          <div className="flex">
             <a
-              href='https://www.linkedin.com/in/clint-briley-50056920a/'
-              target='_blank'
-              rel='noreferrer'
+              href="https://www.linkedin.com/in/roman-stets-ab48bb254/"
+              target="_blank"
+              rel="noreferrer"
             >
-              <FaLinkedinIn size={20} style={{ marginRight: '1rem' }} />
+              <FaLinkedinIn size={20} style={{ marginRight: "1rem" }} />
             </a>
             <a
-              href='https://github.com/fireclint'
-              target='_blank'
-              rel='noreferrer'
+              href="https://github.com/IndieHippie"
+              target="_blank"
+              rel="noreferrer"
             >
-              <FaGithub size={20} style={{ marginRight: '1rem' }} />
+              <FaGithub size={20} style={{ marginRight: "1rem" }} />
             </a>
           </div>
         </div>
-        <div className='text-center py-4 text-xl font-bold uppercase tracking-wider'>
-          <div className='hidden sm:block'>
+        <div className="text-center py-4 text-xl font-bold uppercase tracking-wider">
+          <div className="hidden sm:block">
             <p>
-              Proven Leadership <span className='px-1'>|</span> Web Development{' '}
-              <span className='px-1'>|</span> Complex Problem Solving
+              Professional piano player <span className="px-1">|</span> Piano
+              Teacher <span className="px-1">|</span> Concertmaster
             </p>
-          </div>
-          <div className='block sm:hidden'>
-            <p>Proven Leadership</p>
-            <p className='py-2'>Web Development</p>
-            <p>Complex Problem Solving</p>
           </div>
         </div>
         <p>
-          Analytical, innovative, and motivated web development professional
-          with experience in customer service, team leadership, and
-          organizational effectiveness in fast-paced and challenging
-          environments. Adept at developing strategies and driving streamlined
-          operations. Diverse analytical skills, team collaboration, and
-          relationship building. Consummate professional, and motivated leader,
-          with solid interpersonal abilities and complex problem-solving skills.
-          Effective and proven track record of critical thinking, idea
-          generation, and optimizing efficiencies.
+          Energetic musician with a diverse repertoire and strong sight-reading
+          skills. I am constantly seeking new learning opportunities and enjoy
+          performing as part of an ensemble to bring joy to others. <br></br>
+          Through my studies and work experience, I have developed the ability
+          to connect with learners of all ages, particularly children, and
+          create a positive and effective learning environment for piano
+          playing. I have also gained experience using a programmatic
+          pedagogical system with both children and adults.<br></br>
+          As a piano teacher, my ultimate goal is to help students develop their
+          skills and achieve their musical goals. I can highlight my dedication
+          to supporting and guiding students as they work towards their musical
+          aspirations.
         </p>
 
         {/* Skills */}
-        <div className='text-center py-4'>
-          <h5 className='text-center underline text-[18px] py-2'>Skills</h5>
-          <p className='py-2'>
-            <span className='font-bold'>Technical Skills</span>
-            <span className='px-2'>|</span>Front-End Web Developer
-            <span className='px-2'>|</span> HTML
-            <span className='px-2'>|</span>CSS
-            <span className='px-2'>|</span>Javascript
-            <span className='px-2'>|</span>React
-            <span className='px-2'>|</span>Next JS
-            <span className='px-2'>|</span>SQL
-            <span className='px-2'>|</span>NoSQL
-            <span className='px-2'>|</span>Redux
-            <span className='px-2'>|</span>Tailwind
-            <span className='px-2'>|</span> Firebase
-            <span className='px-2'>|</span> RESTAPI
+        <div className="text-center py-4">
+          <h5 className="text-center underline text-[18px] py-2">Skills</h5>
+          <p className="py-2">
+            <span className="font-bold">Skills</span>
+            <span className="px-2">|</span>Professional piano playing skills
+            <span className="px-2">|</span>Music theory knowledge
+            <span className="px-2">|</span>Trinity
+            <span className="px-2">|</span>ABRSM
+            <span className="px-2">|</span>Strong sight-reading skills
+            <span className="px-2">|</span>Individual approach to motivating
+            students with different types of character
+            <span className="px-2">|</span>Group teaching knowledge with
+            different ages
+            <span className="px-2">|</span>Good communication
+            <span className="px-2">|</span>Creativity
+            <span className="px-2">|</span>Attention to detail
+            <span className="px-2">|</span>Teamwork
+            <span className="px-2">|</span>Programming skills: JavaScript, React
           </p>
-          <p className='py-2'>
-            <span className='font-bold'>Amazon Web Services</span>
-            <span className='px-2'>|</span>Amazon Web Services Cloud
-            Practitioner
+          <p className="py-2">
+            <span className="font-bold">LANGUAGES</span>
+            <span className="px-2">|</span>Ukrainian(native speaker)
+            <span className="px-2">|</span>English (fluently)
+            <span className="px-2">|</span>Chinese (HSK 3)
+            <span className="px-2">|</span>Russian (fluently)
           </p>
         </div>
 
-        <h5 className='text-center underline text-[18px] py-4'>
+        <h5 className="text-center underline text-[18px] py-4">
           Professional Experience
         </h5>
         {/* Experience */}
-        <div className='py-6'>
-          <p className='italic'>
-            <span className='font-bold italic'>
-            INFINITE TECH
+        <div className="py-6">
+          <p className="italic">
+            <span className="font-bold italic">
+              Northeast Agricultural University
             </span>
-            <span className='px-2'>|</span>Dallas, TX
+            <span className="px-2">|</span>China, Harbin
           </p>
-          <p className='py-1 italic'>Front End Web Developer & Web Master (2013 - Current)</p>
-          <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
-            <li>
-              Ensured comprehensive mobile responsive UI layouts with
-              understanding of HTML, CSS, and JavaScript.
-            </li>
-            <li>
-              Troubleshoot issues and concerns, configure operation and analytic
-              plugins, and design changes as needed.
-            </li>
-            <li>
-              Worked directly with a diverse client base to understand and
-              implement multiple technologies and programs.
-            </li>
-            <li>
-              Platform migration managing DNS servers as well as MX records and
-              ensuring a smooth migration process.
-            </li>
+          <p className="py-1 italic">
+            Piano Teacher & Concertmaster (2017 - 2023)
+          </p>
+          <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
+            <li>Teaching piano and concertmaster classes.</li>
+            <li>Preparing students for competions, perfomences, exams.</li>
+            <li>Took an active part in the cultural life of the university.</li>
+            <li>Solo performing.</li>
           </ul>
         </div>
 
-
         {/* Personal Experience */}
-        <div className='py-6'>
-          <p className='italic'>
-            <span className='font-bold italic'>
-              Teaching & Mentoring Web Development
-            </span>
-            <span className='px-2'>|</span>Dallas, TX
+        <div className="py-6">
+          <p className="italic">
+            <span className="font-bold italic">Music school «⻰⾠悦⾳»</span>
+            <span className="px-2">|</span>China, Harbin
           </p>
-          <p className='py-1 italic'>Code Commerce - Youtube Channel (2021 - Current)</p>
-          <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
+          <p className="py-1 italic">Piano teacher (2017 - 2020)</p>
+          <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
+            <li>Teaching piano classes.</li>
             <li>
-              In 2021 I started “Code Commerce”, a YouTube channel focused on
-              sharing what I’m learning in web development, specifically
-              front-end development.
+              Preparing students for competions, perfomences, exams “ABRSM”,
+              “Trinity”.
             </li>
+          </ul>
+        </div>
+        {/* Personal Experience */}
+        <div className="py-6">
+          <p className="italic">
+            <span className="font-bold italic">Odesa Philharmonic Society</span>
+            <span className="px-2">|</span>Ukraine, Odesa
+          </p>
+          <p className="py-1 italic">Concertmaster (2015 - 2017)</p>
+          <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
+            <li>Perfomences with the best soloists of the Philarmonic.</li>
             <li>
-              Private 1 on 1 Zoom coaching calls related to web development.
-              More specifically debugging, teaching basic web development
-              concepts and code reviews.
+              Numerous tours of the country, participation in competitions and
+              festivals.
             </li>
+          </ul>
+        </div>
+        {/* Personal Experience */}
+        <div className="py-6">
+          <p className="italic">
+            <span className="font-bold italic">Musical school №3</span>
+            <span className="px-2">|</span>Ukraine, Odesa
+          </p>
+          <p className="py-1 italic">
+            Piano teacher & Concertmaster (2014 - 2015)
+          </p>
+          <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
+            <li>Teaching piano clesses.</li>
+            <li>Concertmaster of the children's school choir.</li>
           </ul>
         </div>
 
         {/*  */}
-        <h5 className='text-center underline text-[18px] py-4'>
-          Other Professional Experience
-        </h5>
-      
+        <h5 className="text-center underline text-[18px] py-4">Education</h5>
+
         {/* Experience */}
-        <div className='py-6'>
-          <p className='italic'>
-            <span className='font-bold'>CITY OF SHERMAN, TX</span>
-            <span className='px-2'>|</span>Sherman, TX
+        <div className="py-6">
+          <p className="italic">
+            <span className="font-bold">
+              Odesa National A. V. Nezhdanova Academy of Music
+            </span>
+            <span className="px-2">|</span>Ukraine, Odesa
           </p>
-          <p className='py-1 italic'>Paramedic / Firefighter (2010 – 2019)</p>
-          <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
-            <li>
-              Ensured proper implementation of firefighting techniques and
-              practices including controlling and extinguishing fires, operating
-              hose lines, and fire ground operations, ventilation, and search
-              and rescue.
-            </li>
-            <li>
-              Oversaw comprehensive understanding, operation, and maintenance of
-              fire engines, ladder trucks, technical rescue apparatus, and
-              response trailers.
-            </li>
-            <li>
-              Performed ALS techniques as needed within emergency situations
-              including the use of an esophageal or dual lumen airway device and
-              oral intubation using laryngoscopy.
-            </li>
-            <li>
-              Collaborated with a talented and high performing team of
-              firefighters in high pressure and stressful situations as needed.
-            </li>
-            <li>
-              Utilized proven and demonstrated knowledge of multiple
-              certifications including Pediatric Advanced Life Support,
-              Prehospital Trauma Life Support, and Advanced Cardiac Life
-              Support, among others.
-            </li>
-          </ul>
+          <p className="py-1 italic">Master (2010 – 2016)</p>
+          <div className="list-disc list-outside px-7 py-1 leading-relaxed">
+            In 2016 completed the full course of Odessa National A. V.
+            Nezhdanova Academy of Music obtained master’s degree field of study
+            musical Art obtained qualification of artist-soloistinstrumentalist
+            (concert performer), chamber ensemble artist, accompanist, teacher
+            of HEI of the III-d-IVth accreditation levels (piano).
+          </div>
         </div>
+        <a
+          className="py-2 text-gray-600 underline cursor-pointer"
+          target="_blank"
+          href="https://drive.google.com/file/d/1b6Kz7wGXR8ge_vbEpvVUy75KljtqFR3T/view?usp=sharing"
+          download
+        >
+          Download resume
+        </a>
       </div>
     </>
   );
