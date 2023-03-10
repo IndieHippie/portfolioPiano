@@ -1,7 +1,7 @@
 import React from "react";
 
 import Image from "next/image";
-import propertyImg from "../public/assets/projects/photo.jpg";
+import propertyImg from "../public/assets/projects/photo.JPG";
 import academy from "../public/assets/projects/academy.jpg";
 
 const Projects = () => {
