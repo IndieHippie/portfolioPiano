@@ -1,6 +1,8 @@
 import React from "react";
 import Head from "next/head";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
+const CV = require("../public/assets/RomanStetsCV.pdf");
+
 
 const resume = () => {
   return (
@@ -173,6 +175,15 @@ const resume = () => {
             (concert performer), chamber ensemble artist, accompanist, teacher
             of HEI of the III-d-IVth accreditation levels (piano).
           </div>
+          <a
+            className="py-2 text-gray-600 underline cursor-pointer"
+            target="_blank"
+            rel="noopener noreferrer"
+            href={CV}
+            download
+          >
+            Download resume
+          </a>
         </div>
       </div>
     </>

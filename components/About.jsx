@@ -35,6 +35,7 @@ const About = () => {
           <a
             className="py-2 text-gray-600 underline cursor-pointer"
             target="_blank"
+            rel="noopener noreferrer"
             href={CV}
             download
           >
