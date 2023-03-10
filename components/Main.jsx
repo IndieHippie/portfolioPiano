@@ -17,7 +17,7 @@ const Main = () => {
           </h1>
           <h1 className='py-2 text-gray-700'>Professional Piano Player <br></br> Piano Teacher <br></br> Concertmaster</h1>
           <p className='py-4 text-gray-600 sm:max-w-[70%] m-auto'>
-            I'm focused on helping students develop their skills and achieve their musical goals.
+            I&#39;m focused on helping students develop their skills and achieve their musical goals.
           </p>
           <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
             <a
