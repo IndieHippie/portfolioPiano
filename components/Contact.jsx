@@ -52,7 +52,7 @@ const Contact = () => {
               <div>
                 <p className="uppercase pt-8">Connect With Me</p>
                 <div className="flex items-center justify-between py-4">
-                  <Link
+                  <a
                     href="https://www.linkedin.com/in/roman-stets-ab48bb254/"
                     target="_blank"
                     rel="noreferrer"
@@ -60,8 +60,8 @@ const Contact = () => {
                     <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                       <FaLinkedinIn />
                     </div>
-                  </Link>
-                  <Link
+                  </a>
+                  <a
                     href="https://github.com/IndieHippie"
                     target="_blank"
                     rel="noreferrer"
@@ -69,17 +69,17 @@ const Contact = () => {
                     <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                       <FaGithub />
                     </div>
+                  </a>
+                  <Link href="/#contact">
+                    <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                      <AiOutlineMail />
+                    </div>
                   </Link>
-                              <Link href='/#contact'>
-              <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                <AiOutlineMail />
-              </div>
-            </Link>
-            <Link href='/resume'>
-              <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                <BsFillPersonLinesFill />
-              </div>
-            </Link>
+                  <Link href="/resume">
+                    <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                      <BsFillPersonLinesFill />
+                    </div>
+                  </Link>
                 </div>
               </div>
             </div>
