@@ -11,7 +11,7 @@ export default function Home() {
     <div>
       <Head>
         <title>Roman | Piano Teacher</title>
-        <meta name="description" content="I’m a front-end web developer specializing in building (and occasionally designing) exceptional digital experiences." />
+        <meta name="description" content="I’m Professional Piano Player, Piano Teacher, Concertmaster." />
         <link rel="icon" href="/assets/RS.png" />
       </Head>
     <Main />
