@@ -11,7 +11,7 @@ const resume = () => {
         <title>Roman | Resume</title>
         <meta
           name="description"
-          content="I’m a front-end web developer specializing in building (and occasionally designing) exceptional digital experiences."
+          content="I’m Professional Piano Player, Piano Teacher, Concertmaster."
         />
         <link rel="icon" href="/assets/RS.png" />
       </Head>
