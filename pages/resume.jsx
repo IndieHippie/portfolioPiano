@@ -3,7 +3,6 @@ import Head from "next/head";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 const CV = require("../public/assets/RomanStetsCV.pdf");
 
-
 const resume = () => {
   return (
     <>
@@ -64,8 +63,7 @@ const resume = () => {
         <div className="text-center py-4">
           <h5 className="text-center underline text-[18px] py-2">Skills</h5>
           <p className="py-2">
-            <span className="font-bold">Skills</span>
-            <span className="px-2">|</span>Professional piano playing skills
+            Professional piano playing skills
             <span className="px-2">|</span>Music theory knowledge
             <span className="px-2">|</span>Trinity
             <span className="px-2">|</span>ABRSM
@@ -80,9 +78,12 @@ const resume = () => {
             <span className="px-2">|</span>Teamwork
             <span className="px-2">|</span>Programming skills: JavaScript, React
           </p>
+        </div>
+
+        <div className="text-center py-4">
+          <h5 className="text-center underline text-[18px] py-2">Languages</h5>
           <p className="py-2">
-            <span className="font-bold">LANGUAGES</span>
-            <span className="px-2">|</span>Ukrainian(native speaker)
+            Ukrainian(native speaker)
             <span className="px-2">|</span>English (fluently)
             <span className="px-2">|</span>Chinese (HSK 3)
             <span className="px-2">|</span>Russian (fluently)
@@ -151,7 +152,7 @@ const resume = () => {
             Piano teacher & Concertmaster (2014 - 2015)
           </p>
           <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
-            <li>Teaching piano clesses.</li>
+            <li>Teaching piano classes.</li>
             <li>Concertmaster of the children&#39;s school choir.</li>
           </ul>
         </div>
