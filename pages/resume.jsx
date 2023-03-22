@@ -172,7 +172,7 @@ const resume = () => {
           <div className="list-disc list-outside px-7 py-1 leading-relaxed">
             In 2016 completed the full course of Odessa National A. V.
             Nezhdanova Academy of Music obtained master’s degree field of study
-            musical Art obtained qualification of artist-soloistinstrumentalist
+            musical Art obtained qualification of artist-soloist, instrumentalist
             (concert performer), chamber ensemble artist, accompanist, teacher
             of HEI of the III-d-IVth accreditation levels (piano).
           </div>
