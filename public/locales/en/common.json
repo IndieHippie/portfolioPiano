@@ -1,0 +1,14 @@
+{
+  "home": "Home",
+  "about": "About",
+  "skills": "Skills",
+  "demo": "Demo",
+  "resume": "Resume",
+  "contact": "Contact",
+  "home_page": {
+    "app_title": "LET'S PLAY SOMETHING TOGETHER",
+    "app_text1": "Hi, I'm ",
+    "app_text2": "Professional Piano Player Piano Teacher Concertmaster",
+    "app_goal": "I'm focused on helping students develop their skills and achieve their musical goals."
+  }
+}
