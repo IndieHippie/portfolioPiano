@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 const CV = require("../public/assets/RomanStetsCV.pdf");
 
-const resume = () => {
+const Resume = () => {
   const { t } = useTranslation();
 
   return (
@@ -207,4 +207,4 @@ const resume = () => {
   );
 };
 
-export default resume;
+export default Resume;
