@@ -12,18 +12,17 @@ const Main = () => {
       <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
         <div>
           <p className="uppercase text-sm tracking-widest text-gray-600">
-            LET&#39;S PLAY SOMETHING TOGETHER
+            {t("home_page.app_title")}
           </p>
           <h1 className="py-4 text-gray-700">            
               {t("home_page.app_text1")} <span className="text-[#429599]"> Roman</span>            
           </h1>
           <h1 className="py-2 text-gray-700">
-            Professional Piano Player <br></br> Piano Teacher <br></br>{" "}
-            Concertmaster
+            {t("home_page.app_text2")} <br></br> {t("home_page.app_text3")} <br></br>{" "}
+            {t("home_page.app_text4")}
           </h1>
           <p className="py-4 text-gray-600 sm:max-w-[70%] m-auto">
-            I&#39;m focused on helping students develop their skills and achieve
-            their musical goals.
+            {t("home_page.app_goal")}
           </p>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
             <a

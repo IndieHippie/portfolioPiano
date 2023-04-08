@@ -1,15 +1,21 @@
+import { useState } from "react";
 import { useTranslation } from "react-i18next";
 
 function LanguageSwitcher() {
   const { i18n } = useTranslation();
+  const [selectedLanguage, setSelectedLanguage] = useState("en");
 
-  const handleLanguageChange = (language) => {
-    i18n.changeLanguage(language);
+  const handleLanguageChange = () => {
+    const newLanguage = selectedLanguage === "en" ? "zh" : "en";
+    setSelectedLanguage(newLanguage);
+    i18n.changeLanguage(newLanguage);
   };
+
   return (
     <div>
-      <text onClick={() => handleLanguageChange("en")}>English</text>
-      <text onClick={() => handleLanguageChange("zh")}>中文</text>
+      <text onClick={handleLanguageChange}>
+        {selectedLanguage === "en" ? "中文" : "English"}
+      </text>
     </div>
   );
 }

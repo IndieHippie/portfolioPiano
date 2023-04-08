@@ -10,7 +10,6 @@ import NavLogo from "../public/assets/RS.png";
 import LanguageSwitcher from "./ButtonLanguage";
 // import Button from "./ButtonTheme";
 
-
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false);
@@ -56,26 +55,26 @@ const Navbar = () => {
         </Link>
         <div>
           <ul style={{ color: `${linkColor}` }} className="hidden md:flex">
-            <li className="ml-10 text-sm uppercase hover:border-b">
-              <LanguageSwitcher/>
+            <li className="ml-10 text-sm uppercase hover:text-[#429599]">
+              <LanguageSwitcher />
             </li>
             <li className="ml-10 text-sm uppercase hover:border-b">
-              <Link href="/">{t('home')}</Link>
+              <Link href="/">{t("home")}</Link>
             </li>
             <li className="ml-10 text-sm uppercase hover:border-b">
-              <Link href="/#about">About</Link>
+              <Link href="/#about">{t("about")}</Link>
             </li>
             <li className="ml-10 text-sm uppercase hover:border-b">
-              <Link href="/#skills">Skills</Link>
+              <Link href="/#skills">{t("skills")}</Link>
             </li>
             <li className="ml-10 text-sm uppercase hover:border-b">
-              <Link href="/#projects">Demo</Link>
+              <Link href="/#projects">{t("demo")}</Link>
             </li>
             <li className="ml-10 text-sm uppercase hover:border-b">
-              <Link href="/resume">Resume</Link>
+              <Link href="/resume">{t("resume")}</Link>
             </li>
             <li className="ml-10 text-sm uppercase hover:border-b">
-              <Link href="/#contact">Contact</Link>
+              <Link href="/#contact">{t("contact")}</Link>
             </li>
           </ul>
           {/* Hamburger Icon */}
@@ -120,46 +119,54 @@ const Navbar = () => {
             </div>
             <div className="border-b border-gray-300 my-4">
               <p className="w-[85%] md:w-[90%] py-4">
-                Let&#39;s play something together
+                {t("home_page.app_title")}
               </p>
             </div>
           </div>
           <div className="py-4 flex flex-col">
             <ul className="uppercase">
               <Link href="/">
+                <li
+                  onClick={() => setNav(false)}
+                  className="py-4 text-sm hover:text-[#429599]"
+                >
+                  <LanguageSwitcher />
+                </li>
+              </Link>
+              <Link href="/">
                 <li onClick={() => setNav(false)} className="py-4 text-sm">
-                  Home
+                  {t("home")}
                 </li>
               </Link>
               <Link href="/#about">
                 <li onClick={() => setNav(false)} className="py-4 text-sm">
-                  About
+                  {t("about")}
                 </li>
               </Link>
               <Link href="/#skills">
                 <li onClick={() => setNav(false)} className="py-4 text-sm">
-                  Skills
+                  {t("skills")}
                 </li>
               </Link>
               <Link href="/#projects">
                 <li onClick={() => setNav(false)} className="py-4 text-sm">
-                  Demo
+                  {t("demo")}
                 </li>
               </Link>
               <Link href="/resume">
                 <li onClick={() => setNav(false)} className="py-4 text-sm">
-                  Resume
+                  {t("resume")}
                 </li>
               </Link>
               <Link href="/#contact">
                 <li onClick={() => setNav(false)} className="py-4 text-sm">
-                  Contact
+                  {t("contact")}
                 </li>
               </Link>
             </ul>
             <div className="pt-40">
               <p className="uppercase tracking-widest text-[#429599]">
-                Let&#39;s Connect
+                {t("lets_connect")}
               </p>
               <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
                 <a

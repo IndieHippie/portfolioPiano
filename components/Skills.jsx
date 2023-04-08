@@ -1,14 +1,17 @@
 import React from "react";
 import Image from "next/image";
+import { useTranslation } from "react-i18next";
 
 const Skills = () => {
+  const { t } = useTranslation();
+
   return (
     <div id="skills" className="w-full lg:h-screen p-2">
       <div className="max-w-[1240px] mx-auto flex flex-col justify-center h-full">
         <p className="text-xl tracking-widest uppercase text-[#429599]">
-          Skills
+          {t("skills")}
         </p>
-        <h2 className="py-4">What I Can Do</h2>
+        <h2 className="py-4">{t("can_do")}</h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
@@ -51,7 +54,7 @@ const Skills = () => {
                 />
               </div>
               <div className="flex flex-col items-center justify-content">
-                <h3>Music theory knowledge</h3>
+                <h3>{t("resume_page.skills1")}</h3>
               </div>
             </div>
           </div>
@@ -66,7 +69,7 @@ const Skills = () => {
                 />
               </div>
               <div className="flex flex-col items-center justify-content">
-                <h3>Professional piano playing skills</h3>
+                <h3>{t("resume_page.skills")}</h3>
               </div>
             </div>
           </div>
@@ -81,7 +84,7 @@ const Skills = () => {
                 />
               </div>
               <div className="flex flex-col items-center justify-content">
-                <h3>Strong sight-reading skills</h3>
+                <h3>{t("resume_page.skills2")}</h3>
               </div>
             </div>
           </div>
@@ -96,7 +99,7 @@ const Skills = () => {
                 />
               </div>
               <div className="flex flex-col items-center justify-content">
-                <h3>Teamwork</h3>
+                <h3>{t("resume_page.skills8")}</h3>
               </div>
             </div>
           </div>
@@ -126,7 +129,7 @@ const Skills = () => {
                 />
               </div>
               <div className="flex flex-col items-center justify-content">
-                <h3>Ukrainian(native) English(fluently) Chinese(HSK З)</h3>
+                <h3>{ t("languages")}</h3>
               </div>
             </div>
           </div>
