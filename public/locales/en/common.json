@@ -9,6 +9,7 @@
   "master": "Master",
   "lets_connect": "Let's connect",
   "languages": "Ukrainian(native) English(fluently) Chinese(HSK З)",
+  "can_do": "What I Can Do",
   "built": "What I've Built",
   "video": "Play Video",
   "touch": "Get In Touch",
@@ -21,6 +22,10 @@
   "subject": "Subject",
   "message": "Message",
   "send_message": "Send Message",
+  "bbs": "Bach Beethoven Saint-Saëns",
+  "exam": "State Exam",
+  "puccini": "Puccini",
+  "tenore": "Tenore - Yu Yang",
   "home_page": {
     "app_title": "LET'S PLAY SOMETHING TOGETHER",
     "app_text1": "Hi, I'm ",

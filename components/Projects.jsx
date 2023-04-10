@@ -23,10 +23,11 @@ const Projects = () => {
             />
             <div className="hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]">
               <h3 className="text-2xl text-white tracking-wider text-center">
-                Puccini – &#39;Che gelida manina&#39;
+                {t("puccini")} – &#39;Che gelida manina&#39;
               </h3>
               <p className="pb-4 pt-2 text-white text-center">
-                Tenore - Yu Yang, Concertmaster - Roman Stets
+                {t("tenore")}
+                <br></br> {t("home_page.app_text4")} - Roman Stets
               </p>
               <a
                 target="_blank"
@@ -47,9 +48,9 @@ const Projects = () => {
             />
             <div className="hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]">
               <h3 className="text-2xl text-white tracking-wider text-center">
-                Bach Beethoven Saint-Saëns
+                {t("bbs")}
               </h3>
-              <p className="pb-4 pt-2 text-white text-center">State Exam</p>
+              <p className="pb-4 pt-2 text-white text-center"> {t("exam")}</p>
               <a
                 target="_blank"
                 rel="noreferrer"
