@@ -8,7 +8,7 @@ import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import NavLogo from "../public/assets/RS.png";
 import LanguageSwitcher from "./ButtonLanguage";
-// import Button from "./ButtonTheme";
+import ThemeSwitcher from "./ButtonTheme";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -55,9 +55,6 @@ const Navbar = () => {
         </Link>
         <div>
           <ul style={{ color: `${linkColor}` }} className="hidden md:flex">
-            <li className="ml-10 text-sm uppercase hover:text-[#429599]">
-              <LanguageSwitcher />
-            </li>
             <li className="ml-10 text-sm uppercase hover:border-b">
               <Link href="/">{t("home")}</Link>
             </li>
@@ -76,6 +73,12 @@ const Navbar = () => {
             <li className="ml-10 text-sm uppercase hover:border-b">
               <Link href="/#contact">{t("contact")}</Link>
             </li>
+            <li className="ml-10 text-sm uppercase">
+              <LanguageSwitcher />
+            </li>
+            {/* <li className="ml-10 text-sm uppercase">
+              <ThemeSwitcher />
+            </li> */}
           </ul>
           {/* Hamburger Icon */}
           <div
@@ -128,7 +131,7 @@ const Navbar = () => {
               <Link href="/">
                 <li
                   onClick={() => setNav(false)}
-                  className="py-4 text-sm hover:text-[#429599]"
+                  className="py-4 text-sm"
                 >
                   <LanguageSwitcher />
                 </li>

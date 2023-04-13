@@ -13,9 +13,23 @@ function LanguageSwitcher() {
 
   return (
     <div>
-      <text onClick={handleLanguageChange}>
-        {selectedLanguage === "en" ? "中文" : "English"}
-      </text>
+      <span
+        onClick={handleLanguageChange}
+        className={`font-serif ${
+          selectedLanguage === "en" ? "text-active font-bold" : "text-gray-500"
+        }`}
+      >
+        Eng
+      </span>{" "}
+      |{" "}
+      <span
+        onClick={handleLanguageChange}
+        className={`font-serif ${
+          selectedLanguage === "zh" ? "text-active font-bold" : "text-gray-500"
+        }`}
+      >
+        中文
+      </span>
     </div>
   );
 }
