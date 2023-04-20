@@ -8,7 +8,7 @@ import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import NavLogo from "../public/assets/RS.png";
 import LanguageSwitcher from "./ButtonLanguage";
-import ThemeSwitcher from "./ButtonTheme";
+// import ThemeSwitcher from "./ButtonTheme";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);

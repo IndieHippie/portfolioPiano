@@ -6,7 +6,7 @@ const nextConfig = {
   reactStrictMode: true,
   webpack(config) {
     config.module.rules.push({
-      test: /\.pdf$/i,
+      test: /\.(pdf|mp4)$/i,
       type: 'asset/resource',
     });
 
@@ -14,4 +14,4 @@ const nextConfig = {
   },
 }
 
-module.exports = nextConfig
+module.exports = nextConfig;

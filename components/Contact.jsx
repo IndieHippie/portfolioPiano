@@ -98,7 +98,7 @@ const Contact = () => {
                       {t("name")}
                     </label>
                     <input
-                      className="border-2 rounded-lg p-3 flex border-gray-300"
+                      className="border-2 rounded-lg p-3 flex border-gray-300 bg-white"
                       type="text"
                       name="name"
                     />
@@ -108,7 +108,7 @@ const Contact = () => {
                       {t("phone")}
                     </label>
                     <input
-                      className="border-2 rounded-lg p-3 flex border-gray-300"
+                      className="border-2 rounded-lg p-3 flex border-gray-300 bg-white"
                       type="text"
                       name="phone"
                     />
@@ -117,7 +117,7 @@ const Contact = () => {
                 <div className="flex flex-col py-2">
                   <label className="uppercase text-sm py-2">{t("email")}</label>
                   <input
-                    className="border-2 rounded-lg p-3 flex border-gray-300"
+                    className="border-2 rounded-lg p-3 flex border-gray-300 bg-white"
                     type="email"
                     name="email"
                   />
@@ -127,7 +127,7 @@ const Contact = () => {
                     {t("subject")}
                   </label>
                   <input
-                    className="border-2 rounded-lg p-3 flex border-gray-300"
+                    className="border-2 rounded-lg p-3 flex border-gray-300 bg-white"
                     type="text"
                     name="subject"
                   />
@@ -137,7 +137,7 @@ const Contact = () => {
                     {t("message")}
                   </label>
                   <textarea
-                    className="border-2 rounded-lg p-3 border-gray-300"
+                    className="border-2 rounded-lg p-3 border-gray-300 bg-white"
                     rows="10"
                     name="message"
                   ></textarea>
