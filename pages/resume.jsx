@@ -64,8 +64,6 @@ const Resume = () => {
           <p className="py-2">
             {/* {t("")} */}
             {t("resume_page.skills")}
-            <span className="px-2">|</span>
-            {t("resume_page.skills")}
             <span className="px-2">|</span>Trinity
             <span className="px-2">|</span>ABRSM
             <span className="px-2">|</span>
